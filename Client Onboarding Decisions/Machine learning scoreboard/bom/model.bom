@@ -63,7 +63,7 @@ public class Output
     public java.util.List scores domain 0,* class java.lang.Double
                 property "ads.attributeId" "2"
                 property "com.fasterxml.jackson.annotation.JsonProperty" "scores";
-    public Output(java.lang.Double predictions,
+    public Output(java.lang.Double predictions, 
         java.util.List scores domain 0,* class java.lang.Double)
                 property autoExpand "true"
                 property beanConstructor "true"
@@ -89,19 +89,20 @@ public class Output
                 property "de.generated" {
                     $gen "com.ibm.decision.ml.integration.client.ops.xom.PredictionCallGenerator",
                     $target "BOM",
-                    deploymentId "2",
-                    providerName ""
+                    deploymentId "6",
+                    providerName "decisions/Client-Onboarding/OPS1623988046394"
                 }
                 property pureFunction "true";
     public static Output run(com.ibm.decision.run.RunContext runContext, decisions.client_onboarding.client_onboarding_decisions.machineLearningScoreboard.Input input)
                 property "de.generated" {
                     $gen "com.ibm.decision.ml.integration.client.ops.xom.PredictionRunGenerator",
                     $target "BOM",
-                    deploymentId "2",
-                    providerName ""
+                    deploymentId "6",
+                    providerName "decisions/Client-Onboarding/OPS1623988046394"
                 }
                 property pureFunction "true";
     public void set_scores(java.util.Collection scores domain 0,* class java.lang.Double)
                 property collectionAttribute "scores"
                 property update "true";
 }
+
