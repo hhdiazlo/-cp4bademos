@@ -1,9 +1,0 @@
-{
-  "name" : "decisions/Client-Onboarding/OPS1623988046394",
-  "type" : "OPS",
-  "description" : "",
-  "mlUrl" : "http://52.117.76.5:8080/",
-  "authUrl" : "",
-  "instanceId" : "",
-  "apiKey" : null
-}
